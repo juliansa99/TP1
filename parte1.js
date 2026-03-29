@@ -18,3 +18,20 @@ console.log("EJERCICIO 1.3")
 productos.forEach(producto => {
   console.log(`Producto: ${producto.nombre} - Precio: $${producto.precio}`);
 });
+
+
+console.log("EJERCICIO 2.4")
+const nombres = productos.map(producto => producto.nombre);
+console.log(nombres)
+
+console.log("EJERCICIO 2.5")
+const ropa = productos.filter(producto => producto.categoria == "Ropa")
+console.log(ropa)
+
+console.log("EJERCICIO 2.6")
+const mayoresA3000 = productos.filter(producto => producto.precio >= 3000)
+console.log(mayoresA3000)
+
+console.log("EJERCICIO 2.7")
+const encontrado = productos.find(producto => producto.nombre == "Gorra")
+console.log(encontrado)
