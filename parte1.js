@@ -35,3 +35,14 @@ console.log(mayoresA3000)
 console.log("EJERCICIO 2.7")
 const encontrado = productos.find(producto => producto.nombre == "Gorra")
 console.log(encontrado)
+
+
+console.log("EJERCICIO 3.8")
+console.log(productos.some(producto => producto.precio >= 10000))
+
+console.log("EJERCICIO 3.9")
+console.log(productos.every(producto => producto.precio >= 1000));
+
+console.log("EJERCICIO 3.10")
+console.log(nombres.includes("Campera"));
+
